@@ -14,5 +14,6 @@ def sobre(request):
     #return HttpResponse("tarefa:"+str(numero))
 def tarefa(request,ano,mes,dia):
     return HttpResponse("tarefa:"+str(ano)+"/"+str(mes)+"/"+str(dia))
-
+def contatos(request,contatos):
+    return HttpResponse("contato:"+str(contatos))
 # Create your views here.
